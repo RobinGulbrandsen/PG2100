@@ -30,3 +30,20 @@ INSTALLATION*:
 *There are other, better ways to do this is you are setup and
 know GitHub. This is the easiest way to do this if you not
 know GIT.
+
+============================================================
+PREFIX:
+============================================================
+In the entire project I am using prefixes on my variables
+which tells me what kind of element it is, here is a list of 
+the prefixes used:
+
+btn - Button
+lbl - Label
+txt - Text
+lst - List
+i	- Interface
+
+example: 
+txtInputUsername 	- Textfield which user enters username
+iPerson				- Interface for the Personclass
