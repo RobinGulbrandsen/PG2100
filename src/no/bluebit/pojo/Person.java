@@ -1,9 +1,7 @@
 package no.bluebit.pojo;
 
 /**
- * 
- * @author Nerdarn
- *	Describes a person object in the system.
+ * Describes a person object in the system.
  *
  */
 public class Person {
@@ -45,6 +43,10 @@ public class Person {
 		return age;
 	}
 	
+	/**
+	 *
+	 * @return The full name of the Person
+	 */
 	public String getName() {
 		return getFirstname() + " " + getLastname();
 	}

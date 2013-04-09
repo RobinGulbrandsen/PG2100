@@ -1,5 +1,8 @@
 package no.bluebit.pojo;
 
+/**
+ * Supehero is an extention of Person class
+ */
 public class Superhero extends Person{
 	
 	private String alias;
