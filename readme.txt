@@ -1,4 +1,4 @@
-Java code for PG2100 @ NITH sprint 2013
+Java code for PG2100 @ NITH spring 2013
 ============================================================
 This project contains example code for the following subjects:
 -Objects
@@ -29,7 +29,7 @@ INSTALLATION*:
 
 *There are other, better ways to do this. But it requires you
 to setup GitHub and be a little familiar with it.
-This is the easiest way to do this if you not know GIT.
+This is the easiest way to do this if you do not know GIT.
 
 ============================================================
 PREFIX:
@@ -42,8 +42,8 @@ btn - Button
 lbl - Label
 txt - Text
 lst - List
-i	- Interface
+i   - Interface
 
 example: 
-txtInputUsername 	- Textfield which user enters username
-iPerson				- Interface for the Personclass
+txtInputUsername - Textfield which user enters username
+iPerson          - Interface for the Personclass
