@@ -1,4 +1,4 @@
-package no.bluebit.objects;
+package no.bluebit.pojo;
 
 /**
  * 
