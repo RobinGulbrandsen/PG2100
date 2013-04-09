@@ -10,7 +10,7 @@ public class Person {
 	private int age;
 	
 	public Person() {
-		this("", "", 0);
+		this("unknown", "unknown", 0);
 	}
 	
 	public Person(String firstname, String lastname, int age) {

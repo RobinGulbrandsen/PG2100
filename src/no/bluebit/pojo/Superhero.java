@@ -8,7 +8,7 @@ public class Superhero extends Person{
 	private String alias;
 	
 	public Superhero() {
-		this("", "", 0, "");
+		this("unknown", "unknown", 0, "unknown");
 	}
 	
 	public Superhero(String firstname, String lastname, int age, String alias) {
