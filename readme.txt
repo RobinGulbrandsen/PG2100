@@ -34,8 +34,8 @@ know GIT.
 ============================================================
 PREFIX:
 ============================================================
-In the entire project I am using prefixes on my variables
-which tells me what kind of element it is, here is a list of 
+In the project I am using prefixes on some of my variables,
+these tells me what kind of element it is. Here is a list of 
 the prefixes used:
 
 btn - Button
