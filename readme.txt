@@ -27,9 +27,9 @@ INSTALLATION*:
 4.2 Select General - File System
 4.3 In the file selection window select the downloaded file.
 
-*There are other, better ways to do this is you are setup and
-know GitHub. This is the easiest way to do this if you not
-know GIT.
+*There are other, better ways to do this. But it requires you
+to setup GitHub and be a little familiar with it.
+This is the easiest way to do this if you not know GIT.
 
 ============================================================
 PREFIX:
