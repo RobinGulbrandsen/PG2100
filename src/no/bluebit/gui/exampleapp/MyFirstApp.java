@@ -1,4 +1,4 @@
-package no.bluebit.no.gui.exampleapp;
+package no.bluebit.gui.exampleapp;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
