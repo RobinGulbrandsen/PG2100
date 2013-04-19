@@ -45,7 +45,7 @@ public class Person implements IPerson, Comparable<Person> {
 	
 	@Override
 	public String toString() {
-		return "Name: " + getName() +"\nAge: " + getAge();
+		return getName();
 	}
 	
 	@Override
