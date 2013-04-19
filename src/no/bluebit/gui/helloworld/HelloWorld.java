@@ -1,4 +1,4 @@
-package no.bluebit.gui._1helloworld;
+package no.bluebit.gui.helloworld;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;

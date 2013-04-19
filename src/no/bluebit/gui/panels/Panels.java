@@ -1,4 +1,4 @@
-package no.bluebit.gui._2panels;
+package no.bluebit.gui.panels;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
