@@ -47,3 +47,8 @@ i   - Interface
 example: 
 txtInputUsername - Textfield which user enters username
 iPerson          - Interface for the Personclass
+
+============================================================
+FEEDBACK:
+============================================================
+For feedback on the code or structure: robin@123.no
