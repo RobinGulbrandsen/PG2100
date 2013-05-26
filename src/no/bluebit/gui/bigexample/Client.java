@@ -28,6 +28,9 @@ public class Client extends JFrame {
 	public Client() {
 		super("My Application");
 		
+		//Setup list
+		lstPeople = new ArrayList<Person>();
+		
 		//Add JPanel objects to the JFrame
 		add(BorderLayout.NORTH, new Input());
 		add(BorderLayout.CENTER, new Output());
@@ -67,13 +70,9 @@ public class Client extends JFrame {
 	}
 	
 	private class Output extends JPanel {
-		//contains a list of people shown in the JPanel
-		ArrayList<Person> lstPeople;
 		
 		public Output() {
 			setLayout(new GridLayout(1,1));
-			//initiate the people list
-			lstPeople = new ArrayList<Person>();
 			
 			//Sets the format for the list, default model
 			lstModel = new DefaultListModel<Person>();
@@ -221,6 +220,7 @@ public class Client extends JFrame {
 		private boolean validateString(String string) {
 			//If string is empty or null, return false
 			if(string.equals("") || string == null) {
+				System.out.println(string);
 				return false;
 			}
 			return true;
@@ -233,7 +233,7 @@ public class Client extends JFrame {
 				//age is a number
 				
 				//... and the number is positive
-				if(a < 0) {
+				if(a > 0) {
 					//.. return true
 					return true;
 				}
